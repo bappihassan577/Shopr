@@ -1,0 +1,25 @@
+{
+  "rules": {
+    "products": {
+      ".read": true,
+      ".write": true,
+      ".indexOn": ["status", "category", "created_at"]
+    },
+    "categories": {
+      ".read": true,
+      ".write": true
+    },
+    "menus": {
+      ".read": true,
+      ".write": true
+    },
+    "settings": {
+      ".read": true,
+      ".write": true
+    },
+    "users": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}

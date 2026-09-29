@@ -1,0 +1,6 @@
+{
+  "name": "Shopr - Premium E-Commerce Platform",
+  "description": "A high-performance modern e-commerce platform with dynamic Firebase Realtime Database catalog, live product gallery, and administrative management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590 175" width="100%" height="100%" fill="none" style="overflow: visible;">
+  <defs>
+    <linearGradient id="bagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C2FF" />
+      <stop offset="45%" stop-color="#0080FF" />
+      <stop offset="100%" stop-color="#0052D4" />
+    </linearGradient>
+    <linearGradient id="handleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2FF" />
+      <stop offset="100%" stop-color="#0055FE" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC800" />
+      <stop offset="40%" stop-color="#FF9000" />
+      <stop offset="100%" stop-color="#FF5500" />
+    </linearGradient>
+    <linearGradient id="cyanFold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#70E4FF" />
+      <stop offset="50%" stop-color="#00B4FF" />
+      <stop offset="100%" stop-color="#0072FF" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB300" />
+      <stop offset="100%" stop-color="#FF5500" />
+    </linearGradient>
+  </defs>
+
+  <!-- SHOPPING BAG ICON -->
+  <g transform="translate(10, 15)">
+    <path d="M 52 35 C 52 14, 88 14, 88 35" stroke="url(#handleGrad)" stroke-width="12" stroke-linecap="round" fill="none" />
+    <path d="M 30 38 L 110 38 C 118 38, 124 45, 122 53 L 108 122 C 106 130, 99 136, 91 136 L 27 136 C 19 136, 13 129, 14 121 L 21 48 C 22 42, 25 38, 30 38 Z" fill="url(#bagGrad)" />
+    <path d="M 38 68 C 50 48, 102 46, 114 62 C 122 73, 115 88, 92 88 L 60 88 C 45 88, 36 94, 34 104 C 32 114, 40 124, 52 124 L 92 124 C 98 124, 103 128, 103 134 C 103 136, 100 136, 92 136 L 46 136 C 26 136, 16 122, 18 104 C 20 86, 35 74, 52 74 L 84 74 C 94 74, 98 68, 96 63 C 94 58, 86 56, 76 56 C 58 56, 44 62, 38 68 Z" fill="url(#cyanFold)" />
+    <path d="M 44 102 C 40 92, 52 86, 68 86 L 98 86 C 114 86, 126 96, 124 110 C 121 126, 105 138, 84 138 L 46 138 C 32 138, 22 132, 22 126 C 22 124, 25 122, 30 122 L 80 122 C 95 122, 104 116, 105 109 C 106 102, 99 98, 88 98 L 60 98 C 52 98, 46 100, 44 102 Z" fill="url(#orangeGrad)" />
+  </g>
+
+  <!-- WORDMARK: Shopr -->
+  <g fill="#0F172A">
+    <path d="M 165 64 C 172 56, 182 52, 196 52 C 213 52, 223 60, 223 74 C 223 88, 212 94, 198 97 C 182 100, 178 104, 178 110 C 178 116, 184 121, 195 121 C 204 121, 213 117, 219 111 L 227 122 C 219 131, 207 136, 194 136 C 175 136, 163 126, 163 110 C 163 94, 175 87, 191 84 C 206 81, 209 77, 209 72 C 209 66, 203 64, 195 64 C 187 64, 180 67, 174 73 L 165 64 Z" />
+    <path d="M 235 34 L 249 34 L 249 70 C 255 60, 266 54, 278 54 C 295 54, 306 65, 306 83 L 306 134 L 292 134 L 292 85 C 292 74, 285 67, 274 67 C 262 67, 249 75, 249 88 L 249 134 L 235 134 L 235 34 Z" />
+    <path d="M 314 94 C 314 70, 331 52, 355 52 C 379 52, 396 70, 396 94 C 396 118, 379 136, 355 136 C 331 136, 314 118, 314 94 Z M 328 94 C 328 111, 339 123, 355 123 C 371 123, 382 111, 382 94 C 382 77, 371 65, 355 65 C 339 65, 328 77, 328 94 Z" />
+    <path d="M 404 55 L 417 55 L 417 69 C 423 59, 434 53, 446 53 C 468 53, 484 71, 484 94 C 484 117, 468 135, 446 135 C 434 135, 423 129, 417 119 L 417 158 L 404 158 L 404 55 Z M 417 94 C 417 111, 428 123, 444 123 C 459 123, 470 111, 470 94 C 470 77, 459 65, 444 65 C 428 65, 417 77, 417 94 Z" />
+    <path d="M 494 55 L 508 55 L 508 74 C 515 61, 526 54, 537 54 L 539 67 C 528 67, 512 74, 508 89 L 508 134 L 494 134 L 494 55 Z" />
+  </g>
+  <path d="M 548 55 C 548 55, 566 52, 568 62 C 569 70, 559 78, 550 78 C 548 78, 547 74, 548 71 C 549 66, 550 60, 548 55 Z" fill="url(#leafGrad)" />
+</svg>
